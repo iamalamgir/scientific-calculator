@@ -1,0 +1,74 @@
+/*****Scientific-Calculator*****/
+body{
+    background: #fff;
+}
+
+#container{
+    background-color: #AFEEEE;
+    height: 450px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    top: 100px;
+    left: 40%;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,.6);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,.6);
+}
+
+.screen{
+    background-color: #ffff99;
+    height: 60px;
+    width: 270px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+}
+
+.screen input{
+    position: relative;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #e5dfa0;
+    height: 56px;
+    width: 266px;
+    color: #000;
+    text-align: right;
+    font-size: 25px;
+}
+
+.btns{
+    position: relative;
+    top: 30px;
+    left: 12px;
+}
+
+.button{
+    width: 40px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button.black{
+    color: #fff;
+    background-color: #000;
+    border-bottom: 2px solid #647489;
+    border-top: 2px #000;
+}
+
+.button.silver{
+    color: #fff;
+    background-color: #647489;
+    border-bottom: 2px solid #000;
+}
+
+.button.red{
+    color: #fff;
+    background-color: red;
+    border-bottom: 2px solid #647489;
+}
+
+p{
+    line-height: 30px;
+}
